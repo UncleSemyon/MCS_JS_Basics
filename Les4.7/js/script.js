@@ -1,9 +1,9 @@
 console.log('You are at ' + window.location);
 
-let haveEnough = (money, bread, milk, breadPrice, milkPrice) => {
+let haveEnough = (money, bread, apple, breadPrice, applePrice) => {
     let breadSum = parseFloat(bread) * parseFloat(breadPrice);
-    let milkSum = parseFloat(milk) * parseFloat(milkPrice);   
-    if(breadSum + milkSum > parseFloat(money)){
+    let appleSum = parseFloat(apple) * parseFloat(applePrice);   
+    if(breadSum + appleSum > parseFloat(money)){
         return "Вам не хватает денег";
     }else{
        return "Вам хватает денег на покупки";
