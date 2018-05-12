@@ -1,0 +1,10 @@
+/* CSS Document */
+@import url('reset.css');
+
+body{
+    background-color: lightgrey;
+}
+
+p{
+    display:none;
+}
