@@ -10,6 +10,6 @@ let haveEnough = (money, bread, milk, breadPrice, milkPrice) => {
     }
 }
 
-let result = haveEnough(prompt("Сколько у вас денег?"), prompt("Сколько буханок хлеба вы хотите купить?"), prompt("Сколько литров молока вы хотите купить?"), prompt("Сколько стоит буханка хлеба?"), prompt("Сколько стоит литр молока?"));
+let result = haveEnough(prompt("Сколько у вас денег?"), prompt("Сколько буханок хлеба вы хотите купить?"), prompt("Сколько яблок вы хотите купить?"), prompt("Сколько стоит буханка хлеба?"), prompt("Сколько стоит яблоко?"));
 console.log(result);
 document.body.innerHTML = result;
