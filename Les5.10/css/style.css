@@ -1,0 +1,35 @@
+/* CSS Document */
+@import url('reset.css');
+
+body{
+    font-family: Arial;
+    padding:10px;
+}
+
+.crypto-block>div{
+    margin-bottom:10px;
+    line-height:1.5em;
+}
+
+.crypto-block>div .price-line{
+    background-color: lightgrey;
+    height:30px;
+    border: 1px solid #ECECEC;
+}
+
+.crypto-block>div.Bitcoin .price-line{
+    background-color: #D0021C;
+}
+
+.crypto-block>div.Ethereum .price-line{
+    background-color: #4990E2;
+}
+
+.crypto-block>div.Litecoin .price-line{
+    background-color: #4FE3C2;
+}
+
+.crypto-block>div h2{
+    font-size:18px;
+    font-weight:bold;
+}
